@@ -302,7 +302,7 @@ git clone https://github.com/MrSorrow/e3-springboot.git
      application:
        name: e3-manager-service
      registry:
-       address: zookeeper://192.168.2.107:2181
+       address: zookeeper://116.62.148.208:2181
      scan:
        basePackages: guo.ping.e3mall.manager.service.impl
    ```
@@ -340,7 +340,7 @@ git clone https://github.com/MrSorrow/e3-springboot.git
      application:
        name: e3-manager-web
      registry:
-         address: zookeeper://192.168.2.107:2181
+         address: zookeeper://116.62.148.208:2181
    ```
 
 9. 利用 `@Reference` 引用服务。
@@ -383,7 +383,7 @@ git clone https://github.com/MrSorrow/e3-springboot.git
 3. 修改 `resource` 下的 `application.properties` 配置文件，修改 zookeeper 注册中心地址；
 
    ```properties
-   dubbo.registry.address=zookeeper://192.168.2.107:2181
+   dubbo.registry.address=zookeeper://116.62.148.208:2181
    ```
 
 4. 运行模块（可能会报错关于 `toString` 方法，自己重写即可）。
