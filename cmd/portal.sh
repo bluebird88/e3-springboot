@@ -1,23 +1,27 @@
-
+basedir=`pwd`
 app="portal"
-runAt="../$app"
+runAt="$basedir/../$app"
 
-if [ ！ -d  $runAt ]; then
+if [ ! -d  $runAt ]; then
 	mkdir $runAt
 fi
 
-if [ "$i" = "web" ];then
+if [ "$1" = "web" ]; then
 	echo "launch $app web app..."
 	cd "e3-$app-$1"
-	nohup nvm spring-boot:run > $runAt/$1.txt & echo $! > pid_$1.txt
+	mvn spring-boot:run  > $runAt/$1.log 2>&1 &
+	 echo $! > $runAt/pid_$1.txt
+	cd $basedir
 fi
 
-if [ "$i" = "svr" ];then
+if [ "$1" = "svr" ];then
 	echo "launch $app service app..."
-	cd "e3-$app"
-	nohup nvm spring-boot:run > $runAt/$1.txt & echo $! > pid_$1.txt
+	cd "e3-$app/e3-$app-service"
+	mvn spring-boot:run  > $runAt/$1.log 2>&1 &
+	 echo $! > $runAt/pid_$1.txt
+	cd $basedir
 fi
 
-if [ "$i" = "" ];then
+if [ "$1" = "" ];then
 	echo "no implemented!"
 fi
