@@ -63,14 +63,14 @@ git clone https://github.com/MrSorrow/e3-springboot.git
 
    | Web                                                  | 模块      | 地址                                             |
    | ---------------------------------------------------- | --------- | ------------------------------------------------ |
-   | guo.ping.e3mall.manager.ManagerWebApplicationStarter | 后台      | [http://116.62.17.124:8081/](http://116.62.17.124:8081/) |
-   | guo.ping.e3mall.portal.PortalWebApplicationStarter   | 首页      | [http://116.62.17.124:8082/](http://116.62.17.124:8082/) |
-   | guo.ping.e3mall.search.SearchWebApplicationStarter   | 搜索      | [http://116.62.17.124:8083/](http://116.62.17.124:8083/) |
-   | guo.ping.e3mall.item.ItemWebApplicationStarter       | 商品详情  | [http://116.62.17.124:8084/](http://116.62.17.124:8084/) |
-   | guo.ping.e3mall.sso.SsoWebApplicationStarter         | 单点登录  | [http://116.62.17.124:8085/](http://116.62.17.124:8085/) |
-   | guo.ping.e3mall.cart.CartWebApplicationStarter       | 购物车    | [http://116.62.17.124:8086/](http://116.62.17.124:8086/) |
-   | guo.ping.e3mall.order.OrderWebApplicationStarter     | 订单      | [http://116.62.17.124:8087/](http://116.62.17.124:8087/) |
-   | com.alibaba.dubboadmin.DubboAdminApplication         | Dubbo监控 | [http://116.62.17.124:7006/](http://116.62.17.124:7006/) |
+   | guo.ping.e3mall.manager.ManagerWebApplicationStarter | 后台      | [http://www.goday.com:8081/](http://www.goday.com:8081/) |
+   | guo.ping.e3mall.portal.PortalWebApplicationStarter   | 首页      | [http://www.goday.com:8082/](http://www.goday.com:8082/) |
+   | guo.ping.e3mall.search.SearchWebApplicationStarter   | 搜索      | [http://www.goday.com:8083/](http://www.goday.com:8083/) |
+   | guo.ping.e3mall.item.ItemWebApplicationStarter       | 商品详情  | [http://www.goday.com:8084/](http://www.goday.com:8084/) |
+   | guo.ping.e3mall.sso.SsoWebApplicationStarter         | 单点登录  | [http://www.goday.com:8085/](http://www.goday.com:8085/) |
+   | guo.ping.e3mall.cart.CartWebApplicationStarter       | 购物车    | [http://www.goday.com:8086/](http://www.goday.com:8086/) |
+   | guo.ping.e3mall.order.OrderWebApplicationStarter     | 订单      | [http://www.goday.com:8087/](http://www.goday.com:8087/) |
+   | com.alibaba.dubboadmin.DubboAdminApplication         | Dubbo监控 | [http://www.goday.com:7006/](http://www.goday.com:7006/) |
 
 ## II. 项目教程
 
