@@ -6,16 +6,16 @@ spring:
   datasource:
     username: root
     password: 111111
-    url: jdbc:mysql://116.62.148.208:3306/e3mall
+    url: jdbc:mysql://116.62.16.229:3306/e3mall
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   data:
     solr:
-      host: http://116.62.148.208:8983/solr/collection1
+      host: http://116.62.16.229:8983/solr/collection1
   activemq:
     user: admin
     password: admin
-    broker-url: tcp://116.62.148.208:61616
+    broker-url: tcp://116.62.16.229:61616
     pool:
       enabled: true
       max-connections: 50
@@ -26,7 +26,7 @@ dubbo:
   application:
     name: e3-search
   registry:
-    address: zookeeper://116.62.148.208:2181
+    address: zookeeper://116.62.16.229:2181
   scan:
     basePackages: guo.ping.e3mall.search.service
   protocol:
