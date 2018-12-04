@@ -216,7 +216,7 @@ git clone https://github.com/MrSorrow/e3-springboot.git
    spring:
      datasource:
        username: root
-       password: 111111
+       password: run2sunny
        url: jdbc:mysql://192.168.2.107:3307/e3mall
        driver-class-name: com.mysql.jdbc.Driver
        type: com.alibaba.druid.pool.DruidDataSource

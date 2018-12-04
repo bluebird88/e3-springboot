@@ -5,7 +5,7 @@ mybatis:
 spring:
   datasource:
     username: root
-    password: 111111
+    password: run2sunny
     url: jdbc:mysql://172.16.125.40:3306/e3mall
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
