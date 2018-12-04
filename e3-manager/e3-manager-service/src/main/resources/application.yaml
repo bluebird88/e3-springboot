@@ -6,19 +6,19 @@ spring:
   datasource:
     username: root
     password: 111111
-    url: jdbc:mysql://116.62.16.229:3306/e3mall
+    url: jdbc:mysql://172.16.125.40:3306/e3mall
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
 
   redis:
       timeout: 5000
-      host: 116.62.16.229
+      host: 172.16.125.40
       port: 6379
 
   activemq:
         user: admin
         password: admin
-        broker-url: tcp://116.62.16.229:61616
+        broker-url: tcp://172.16.125.40:61616
         pool:
           enabled: true
           max-connections: 50
@@ -29,7 +29,7 @@ dubbo:
   application:
     name: e3-manager
   registry:
-    address: zookeeper://116.62.16.229:2181
+    address: zookeeper://172.16.125.40:2181
   scan:
     basePackages: guo.ping.e3mall.manager.service
   protocol:

@@ -6,13 +6,13 @@ dubbo:
   application:
     name: e3-item-web
   registry:
-      address: zookeeper://116.62.16.229:2181
+      address: zookeeper://172.16.125.40:2181
 # activemq conf
 spring:
   activemq:
       user: admin
       password: admin
-      broker-url: tcp://116.62.16.229:61616
+      broker-url: tcp://172.16.125.40:61616
       pool:
         enabled: true
         max-connections: 50
