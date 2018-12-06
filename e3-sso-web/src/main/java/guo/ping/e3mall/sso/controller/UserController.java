@@ -45,7 +45,7 @@ public class UserController {
         // Token写入cookie 浏览器关闭就过期
         if (result.getStatus() == 200) {
             String token = result.getData().toString();
-            CookieUtils.setCookie(request, response, TOKEN_KEY, token);
+            CookieUtils.setCookie(request, response, TOKEN_KEY, token,3600*12);
         }
         return result;
     }
