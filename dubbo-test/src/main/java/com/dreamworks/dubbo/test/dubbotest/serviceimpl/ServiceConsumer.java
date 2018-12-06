@@ -5,11 +5,13 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.dreamworks.dubbo.test.dubbotest.pojo.User;
 import com.dreamworks.dubbo.test.dubbotest.service.UserReService;
 import com.dreamworks.dubbo.test.dubbotest.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
 public class ServiceConsumer implements UserReService {
 
-    @Reference(url="dubbo://192.168.1.87:20880")
+//    @Reference(url="dubbo://192.168.1.87:20880")o
+    @Autowired
     private UserService service;
 
 
