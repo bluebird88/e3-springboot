@@ -5,7 +5,7 @@ var E3MALL = {
 			return ;
 		}
 		$.ajax({
-			url : "http://www.goday.com:8085/user/token/" + _ticket,
+			url : "http://116.62.17.124:8085/user/token/" + _ticket,
 			dataType : "jsonp",
 			type : "GET",
 			success : function(data){
