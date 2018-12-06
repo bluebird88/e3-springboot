@@ -222,6 +222,8 @@ public final class CookieUtils {
             String[] ary = domainName.split("\\:");
             domainName = ary[0];
         }
+        if(domainName.charAt(0) == '.')
+            domainName = domainName.substring(1);
         return domainName;
     }
 
