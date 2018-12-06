@@ -18,3 +18,13 @@
 
 另外，activemq触发的页面静态化未测试，需要进一步测试，这也依赖于nginx
 
+
+
+----
+#### fake domain name :
+8082: www.e3mall.com
+8083: search.e3mall.com
+8084: detail.e3mall.com
+8085: sso.e3mall.com
+8086: cart.e3mall.com
+8087: order.e3mall.com

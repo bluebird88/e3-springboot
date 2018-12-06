@@ -66,7 +66,7 @@ git clone https://github.com/MrSorrow/e3-springboot.git
    | guo.ping.e3mall.manager.ManagerWebApplicationStarter | 后台      | [http://116.62.17.124:8081/](http://116.62.17.124:8081/) |
    | guo.ping.e3mall.portal.PortalWebApplicationStarter   | 首页      | [http://116.62.17.124:8082/](http://116.62.17.124:8082/) |
    | guo.ping.e3mall.search.SearchWebApplicationStarter   | 搜索      | [http://116.62.17.124:8083/](http://116.62.17.124:8083/) |
-   | guo.ping.e3mall.item.ItemWebApplicationStarter       | 商品详情  | [http://116.62.17.124:8084/](http://116.62.17.124:8084/) |
+   | guo.ping.e3mall.item.ItemWebApplicationStarter       | 商品详情  | [http://detail.e3mall.com:8888/](http://116.62.17.124:8084/) |
    | guo.ping.e3mall.sso.SsoWebApplicationStarter         | 单点登录  | [http://116.62.17.124:8085/](http://116.62.17.124:8085/) |
    | guo.ping.e3mall.cart.CartWebApplicationStarter       | 购物车    | [http://116.62.17.124:8086/](http://116.62.17.124:8086/) |
    | guo.ping.e3mall.order.OrderWebApplicationStarter     | 订单      | [http://116.62.17.124:8087/](http://116.62.17.124:8087/) |
