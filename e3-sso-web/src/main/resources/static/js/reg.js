@@ -215,7 +215,7 @@ var ckmem =function(isCk){
                 if(data.indexOf("请直接登录")>=0){
                     var newData = comMsg(data).replace("请直接登录","<a href='/' style='color:#669900'>请直接登录</a>");
                     if(data.indexOf("宜立方速运")>-1){
-                        newData = "该手机在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://www.e3mall.cn/' target='_blank' style='color:#669900'>找回密码></a>";
+                        newData = "该手机在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://116.62.17.124/' target='_blank' style='color:#669900'>找回密码></a>";
                     }
                     $("#"+MailMId).parent().attr("class","").addClass("regM errorBorder").next().attr("class","");
                     $("#"+MailMErrId).attr("class","reg_error").html(newData);
@@ -247,7 +247,7 @@ var ckmem =function(isCk){
      if(data.indexOf("请直接登录")>=0){
      var newData = comMsg(data).replace("请直接登录","<a href='/' style='color:#669900'>请直接登录</a>");
      if(data.indexOf("宜立方速运")>-1){
-     newData = "该邮箱在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://www.e3mall.cn/' target='_blank' style='color:#669900'>找回密码></a>";
+     newData = "该邮箱在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://116.62.17.124/' target='_blank' style='color:#669900'>找回密码></a>";
      }
      $("#"+MailMId).parent().attr("class","").addClass("regM errorBorder").next().attr("class","");
      $("#"+MailMErrId).attr("class","reg_error").html(newData);
@@ -722,7 +722,7 @@ var ckcpymobile =function(){
                 $("#"+cpyMobileId).parent().attr("class","regM errorBorder").next().attr("class","");
                 var msg_new =comMsg(data).replace("请直接登录","<a href='/' style='color:#669900'>请直接登录</a>");
                 if(data.indexOf("宜立方速运")>-1){
-                    msg_new = comMsg("该手机在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://www.e3mall.cn/' target='_blank' style='color:#669900'>找回密码></a>");
+                    msg_new = comMsg("该手机在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://116.62.17.124/' target='_blank' style='color:#669900'>找回密码></a>");
                 }
                 $("#"+cpyMobileErrId).attr("class","reg_error3 f-color").html(msg_new);
             }else{
@@ -754,7 +754,7 @@ var ckcpymail =function(){
                 $("#"+cpyEmailId).parent().attr("class","regM errorBorder").next().attr("class","");
                 var msg_new =comMsg(data).replace("请直接登录","<a href='/' style='color:#669900'>请直接登录</a>");
                 if(data.indexOf("宜立方速运")>-1){
-                    msg_new = comMsg("该邮箱在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://www.e3mall.cn/' target='_blank' style='color:#669900'>找回密码></a>");
+                    msg_new = comMsg("该邮箱在宜立方速运已注册，请<a href='/' style='color:#669900'>直接登录></a>或<a href='/reg/findpass/?returnUrl=http://116.62.17.124/' target='_blank' style='color:#669900'>找回密码></a>");
                 }
                 $("#"+cpyEmailErrId).attr("class","reg_error3 f-color").html(msg_new);
             }else{

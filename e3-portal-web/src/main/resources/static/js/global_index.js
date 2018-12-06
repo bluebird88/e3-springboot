@@ -1975,12 +1975,12 @@ function timeFun(){
 	//倒计时
 	if(nowtimes >= 1414944000000 && nowtimes<=1415203199000){
 		$(".q_ticket").css("background","url(http://p.e3mall.cn/gold/images/20141105/20141105153125147.jpg) no-repeat center");
-		$(".q_ticket a").attr('href','http://www.e3mall.cn/html/activity/1414059663.html');
+		$(".q_ticket a").attr('href','http://116.62.17.124/html/activity/1414059663.html');
 		$(".q_ticket").show();
 		ssytimechange(1415203199000);
 	}else if(nowtimes >= 1415462400000 && nowtimes<=1415807999000){
 		$(".q_ticket").css("background","url(http://p.e3mall.cn/gold/images/20141110/20141110183526651.jpg) no-repeat center");
-		$(".q_ticket a").attr('href','http://www.e3mall.cn/html/activity/1414059592.html');
+		$(".q_ticket a").attr('href','http://116.62.17.124/html/activity/1414059592.html');
 		$(".q_ticket").show();
 		ssytimechange(1415807999000);
 	}
