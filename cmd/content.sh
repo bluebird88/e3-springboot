@@ -9,7 +9,7 @@ fi
 if [ "$1" = "web" ]; then
 	echo "launch $app web app..."
 	cd "e3-$app/e3-$app-$1"
-	mvn spring-boot:run  > $runAt/$1.log 2>&1 &
+	mvn clean package spring-boot:run  > $runAt/$1.log 2>&1 &
 	 echo $! > $runAt/pid_$1.txt
 	cd $basedir
 fi
